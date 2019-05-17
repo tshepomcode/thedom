@@ -31,3 +31,11 @@ innerContent.appendChild(innerH1);
 innerContent.appendChild(innerP);
 
 container.appendChild(innerContent);
+
+// var btn = document.querySelector('#btn');
+// btn.onclick = () => alert("Hello World");
+
+var btn = document.querySelector('#btn');
+btn.addEventListener('click', () => {
+    alert("Hello World");
+});
